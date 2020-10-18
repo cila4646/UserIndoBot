@@ -7,7 +7,7 @@ RUN git clone https://github.com/userbotindo/UserIndoBot.git -b master /app/user
 WORKDIR /app/userindo/
 
 # Copy Config To Working Dir
-COPY ./config.py /app/userindo/ubotindo
+# COPY ./config.py /app/userindo/ubotindo
 
 # Run
 CMD ["bash", "start"]
